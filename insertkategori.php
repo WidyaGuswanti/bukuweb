@@ -9,7 +9,7 @@ header('Access-Control-Allow-Headers: Content-Type');
 $kode = isset($_POST['kode']) ? $_POST['kode'] : '';
 $kategori = isset($_POST['kategori']) ? $_POST['kategori'] : '';
 
-    // Establish database connection
+    // Establish daoitabase connection
     $conn = getConnection();
 
 try {
